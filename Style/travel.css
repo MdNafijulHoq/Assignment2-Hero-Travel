@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Navbar start */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+.sub-container{
+    /* border: 2px solid red; */
+    min-width: 20px;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 0.6rem;
+}
+.sub-container h3{
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+.sub-container span{
+    color: #FF5400;
+}
+.navbar{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    width: 50%;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 2.75rem;
+}
+.navbar a{
+    text-decoration: none;
+    color:  #424247;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+.navbar .home-color{
+    color: #FF5400;
+}
+/* navbar end */
+
+/* Banner Start */
+.banner{
+    height: auto;
+    /* width: 800px; */
+    position: relative;
+}
+.banner .banner-img img{
+    max-width: 1090px;
+    display: block;
+    margin: 0px auto; 
+    object-fit: cover; 
+}
+.banner .banner-text{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-text h3{
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+font-size: 4rem;
+font-weight: 800;
+margin-bottom: 22px;
+}
+.banner-text p{
+    color: #FFF;
+text-align: center;
+font-family: 'Mulish', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 30px;
+}
+.banner-text .inner-banner-text{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+
+    /* padding: 10px;
+    display: flex;
+    gap: 30px; */
+
+}
+.banner-text input{
+text-align: center;
+width: 130px;
+height: 40px;
+padding: 6px;
+border: none; 
+font-size: 14px;
+border-radius: 5px;
+}
+#btn{
+    background: #FF5400;
+    color: #FFF;
+
+text-align: center;
+font-family: 'Mulish', sans-serif;
+font-size: 1rem;
+font-weight: 700;
+}
