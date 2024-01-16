@@ -1,0 +1,48 @@
+@media (min-width: 350px) and (max-width: 600px){
+    .sub-container{
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+    .sub-container h3{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        display: none;
+    }
+    .menu-cdn{
+        display: block;
+        display: visible;
+      }
+      .menu-cdn i{
+        font-size: 2.5rem;
+        /* margin-left: 15px; */
+        margin-top: 1.5rem;
+        margin-right: 40px;
+      }
+      /* Banner Start */
+      .banner-img{
+        margin-left: 27px;
+      }
+      .banner-img img{
+        /* width: 450px; */
+        width: 115%;
+        height: 700px;
+        border-radius: 30px;
+      }
+      .banner-text h3{
+        font-size: 2.3rem;
+        margin-top: -180px;
+        margin-left: 190px;
+      }
+      /* .banner-text .p-title{
+        padding: 70px;
+        margin-left: 90px;
+      } */
+      .banner-text .p-title > p{
+        font-size: 1.4rem;
+        margin-left: 21%;
+        margin-right: 7%;
+      }
+
+}
+    
